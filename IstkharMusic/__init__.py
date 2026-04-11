@@ -2,7 +2,8 @@ import logging
 import time
 from pyrogram import Client
 
-from IstkharMusic.core.bot import app
+# We import Istu here but rename it to 'app' so __main__.py is happy!
+from IstkharMusic.core.bot import Istu as app
 from IstkharMusic.core.git import git
 from IstkharMusic.core.dir import dir
 from IstkharMusic.core.userbot import Userbot
