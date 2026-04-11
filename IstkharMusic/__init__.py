@@ -8,7 +8,6 @@ dirr()
 git()
 dbb()
 
-app = Istu()
 userbot = Userbot()
 
 
