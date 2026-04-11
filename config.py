@@ -43,7 +43,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 # ======================================================
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://i.ibb.co/Lz4WxZnF/8418584090-29223.jpg  ")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/MAHI-BEATS/AARU-QUEEN")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
