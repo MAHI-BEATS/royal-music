@@ -1,0 +1,19 @@
+[providers]
+python = true
+
+[phases.setup]
+# Install Python, Node.js, and FFmpeg (required for audio streaming)
+nixPkgs = ["python311", "nodejs_20", "ffmpeg", "git"]
+
+[phases.install]
+# Install pip dependencies
+cmds = [
+    "python -m venv /opt/venv",
+    ". /opt/venv/bin/activate",
+    "pip install -U pip",
+    "pip install --no-cache-dir -r requirements.txt"
+]
+
+[start]
+# The command to start the bot
+cmd = "bash start"
