@@ -16,21 +16,21 @@ from IstkharMusic.utils.stuffs.helper import Helper
 
 
 START_IMG = [
-    "https://files.catbox.moe/x5lytj.jpg",
-    "https://files.catbox.moe/psya34.jpg",
-    "https://files.catbox.moe/leaexg.jpg",
-    "https://files.catbox.moe/b0e4vk.jpg",
-    "https://files.catbox.moe/1b1wap.jpg",
-    "https://files.catbox.moe/ommjjk.jpg",
-    "https://files.catbox.moe/onurxm.jpg",
-    "https://files.catbox.moe/97v75k.jpg",
-    "https://files.catbox.moe/t833zy.jpg",
-    "https://files.catbox.moe/472piq.jpg",
-    "https://files.catbox.moe/qwjeyk.jpg",
-    "https://files.catbox.moe/t0hopv.jpg",
-    "https://files.catbox.moe/u5ux0j.jpg",
-    "https://files.catbox.moe/h1yk4w.jpg",
-    "https://files.catbox.moe/gl5rg8.jpg",
+    "https://files.catbox.moe/4rymzx.jpg",
+    "https://files.catbox.moe/6ncc2n.jpg",
+    "https://files.catbox.moe/zgy7zs.jpg",
+    "https://files.catbox.moe/lnvimv.jpg",
+    "https://files.catbox.moe/umpv9j.jpg",
+    "https://files.catbox.moe/7dckik.jpg",
+    "https://files.catbox.moe/nrt3hr.jpg",
+    "https://files.catbox.moe/zgy7zs.jpg",
+    "https://files.catbox.moe/zgy7zs.jpg",
+    "https://files.catbox.moe/zgy7zs.jpg",
+    "https://files.catbox.moe/nrt3hr.jpg",
+    "https://files.catbox.moe/nrt3hr.jpg",
+    "https://files.catbox.moe/nrt3hr.jpg",
+    "https://files.catbox.moe/nrt3hr.jpg",
+    "https://files.catbox.moe/nrt3hr.jpg",
 ]
 
 @app.on_message(filters.command(["help"]) & filters.private & ~BANNED_USERS)
