@@ -24,8 +24,12 @@ MONGO_DB_URI = getenv(
 )
 LOGGER_ID = int(getenv("LOGGER_ID", -1003812209413))
 
-BASE_URL = getenv("API_URL", 'https://BabyAPI.Pro') 
-API_KEY = getenv('API_KEY', 'BABYXF275C7DDEEC1631109C791020A2DDABC9') 
+BASE_URL = getenv("API_URL", "https://BabyAPI.Pro")
+API_KEY = getenv("API_KEY", "BABYXF275C7DDEEC1631109C791020A2DDABC9")
+
+# Vars For API End Pont.
+YT_API_KEY = getenv("YT_API_KEY" , None ) ## Your API key like: xbit_10000000xx0233 Get from  https://t.me/tgmusic_apibot                                
+
 # ======================================================
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION", "9999999"))
