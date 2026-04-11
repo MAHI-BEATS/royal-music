@@ -1,0 +1,6 @@
+[build]
+builder = "NIXPACKS"
+
+[deploy]
+startCommand = "bash start"
+restartPolicyType = "ON_FAILURE"
