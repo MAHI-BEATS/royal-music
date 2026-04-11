@@ -10,7 +10,7 @@ from IstkharMusic.core.git import git
 from IstkharMusic.core.userbot import Userbot
 from IstkharMusic.misc import dbb
 
-dirr()
+dir()
 git()
 dbb()
 
