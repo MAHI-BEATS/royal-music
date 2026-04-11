@@ -1,21 +1,19 @@
-# --- Top of file ---
 import logging
 import time
 from pyrogram import Client
-# ... other basic setup imports ...
 
-# --- Bottom of file ---
-from IstkharMusic.core.bot import Istu
+from IstkharMusic.core.bot import app
 from IstkharMusic.core.git import git
+from IstkharMusic.core.dir import dir
 from IstkharMusic.core.userbot import Userbot
 from IstkharMusic.misc import dbb
+from IstkharMusic.logging import LOGGER
 
 dir()
 git()
 dbb()
 
 userbot = Userbot()
-
 
 from .platforms import *
 
@@ -26,4 +24,3 @@ Spotify = SpotifyAPI()
 Resso = RessoAPI()
 Telegram = TeleAPI()
 YouTube = YouTubeAPI()
-
