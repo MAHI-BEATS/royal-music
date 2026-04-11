@@ -1,9 +1,8 @@
 # ======================================================
-# ©️ 2025-26 All Rights Reserved by Kirti 😎
+# ©️ 2025-26 All Rights Reserved by SHIV 😎
 
-# 🧑‍💻 Developer : t.me/lll_APNA_BADNAM_BABY_lll
-# 🔗 Source link : https://github.com/TEAM-ISTKHAR
-# 📢 Telegram channel : t.me/lll_APNA_BADNAM_BABY_lll
+# 🧑‍💻 Developer : t.me/sukoon_s
+# 📢 Telegram channel : t.me/betabot_hub
 # =======================================================
 
 import math
@@ -77,7 +76,7 @@ def stream_markup_timer(_, chat_id, played, dur):
         ],
          [
              InlineKeyboardButton(text="< - 𝟤𝟢 s", callback_data="seek_backward_20"),
-             InlineKeyboardButton(text="ᴘʀᴏᴍᴏ", url=f"https://t.me/Sukku_Bots"),
+             InlineKeyboardButton(text="ᴘʀᴏᴍᴏ", url=f"https://t.me/preet_deal_bot"),
              InlineKeyboardButton(text="𝟤𝟢 s + >", callback_data="seek_forward_20")
          ],
          [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close"),
@@ -98,7 +97,7 @@ def stream_markup(_, chat_id):
          ],
         [
              InlineKeyboardButton(text="< - 𝟤𝟢 s", callback_data="seek_backward_20"),
-             InlineKeyboardButton(text="ᴘʀᴏᴍᴏ", url=f"https://t.me/Itzz_Istkhar?text=𝖧ᴇʏ%20ʙᴀʙʏ%20%20😄%20ɪ%20ᴡᴀɴᴛ%20ᴘᴀɪᴅ%20ᴘʀᴏᴍᴏᴛɪᴏɴ,%20ɢɪᴠᴇ%20ᴍᴇ%20ᴘʀɪᴄᴇ%20ʟɪsᴛ%20😙"),
+             InlineKeyboardButton(text="ᴘʀᴏᴍᴏ", url=f"https://t.me/sukoon_s?text=𝖧ᴇʏ%20ʙᴀʙʏ%20%20😄%20ɪ%20ᴡᴀɴᴛ%20ᴘᴀɪᴅ%20ᴘʀᴏᴍᴏᴛɪᴏɴ,%20ɢɪᴠᴇ%20ᴍᴇ%20ᴘʀɪᴄᴇ%20ʟɪsᴛ%20😙"),
              InlineKeyboardButton(text="𝟤𝟢 s+ >", callback_data="seek_forward_20")
          ],
             [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close"),
@@ -180,7 +179,7 @@ def slider_markup(_, videoid, user_id, query, query_type, channel, fplay):
     return buttons
 
 # ======================================================
-# ©️ 2025-26 All Rights Reserved by Kirti 😎
+# ©️ 2025-26 All Rights Reserved by SHIV 😎
 
 # 🧑‍💻 Developer : t.me/lll_APNA_BADNAM_BABY_lll
 # 🔗 Source link : https://github.com/TEAM-ISTKHAR
