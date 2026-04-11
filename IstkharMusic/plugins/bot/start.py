@@ -29,22 +29,23 @@ from strings import get_string
 
 
 NEXI_VID = [
-       "https://files.catbox.moe/38tth5.jpg",
-    "https://files.catbox.moe/ggfe0n.jpg",
-    "https://files.catbox.moe/bv1u4q.jpg",
-    "https://files.catbox.moe/dsmljb.jpg",
-    "https://files.catbox.moe/l7gc2l.jpg",
-    "https://files.catbox.moe/g2bmrf.jpg",
-    "https://files.catbox.moe/9a8x0f.jpg",
-    "https://files.catbox.moe/u451su.jpg",
-    "https://files.catbox.moe/rf4toh.jpg",
-    "https://files.catbox.moe/6tt01m.jpg",
-    "https://files.catbox.moe/5es8qq.jpg",
-    "https://files.catbox.moe/ydqnmt.jpg",
-    "https://files.catbox.moe/7jds0u.jpg",
-    "https://files.catbox.moe/hwydcv.jpg",
-    "https://files.catbox.moe/y4m0yk.jpg",
+    "https://files.catbox.moe/4rymzx.jpg",
+    "https://files.catbox.moe/6ncc2n.jpg",
+    "https://files.catbox.moe/zgy7zs.jpg",
+    "https://files.catbox.moe/lnvimv.jpg",
+    "https://files.catbox.moe/umpv9j.jpg",
+    "https://files.catbox.moe/7dckik.jpg",
+    "https://files.catbox.moe/nrt3hr.jpg",
+    "https://files.catbox.moe/zgy7zs.jpg",
+    "https://files.catbox.moe/zgy7zs.jpg",
+    "https://files.catbox.moe/zgy7zs.jpg",
+    "https://files.catbox.moe/nrt3hr.jpg",
+    "https://files.catbox.moe/nrt3hr.jpg",
+    "https://files.catbox.moe/nrt3hr.jpg",
+    "https://files.catbox.moe/nrt3hr.jpg",
+    "https://files.catbox.moe/nrt3hr.jpg",
 ]
+
 
 
 @app.on_message(filters.command(["start"]) & filters.private & ~BANNED_USERS)
@@ -52,10 +53,10 @@ NEXI_VID = [
 async def start_pm(client, message: Message, _):
     await add_served_user(message.from_user.id)
 
-    typing_message = await message.reply("<b> Isᴛᴋʜᴀʀ..Bᴏᴛs..❤️‍🔥</b>")
+    typing_message = await message.reply("BETA..BOTS..❤️‍🔥")
     
     
-    typing_text = "<b>𝖲ᴛᴀʀᴛɪɴɢ...❤️‍🔥</b>"
+    typing_text = "𝖲ᴛᴀʀᴛɪɴɢ...❤️‍🔥"
     
     for i in range(1, len(typing_text) + 1):  
         try:
@@ -201,10 +202,10 @@ async def welcome(client, message: Message):
         except Exception as ex:
             print(ex)
 
-# ===========================================================
-# ©️ 2025-26 All Rights Reserved by Team Istu (Im-Notcoder) 😎
+# =============================================================
+# ©️ 2025-26 All Rights Reserved by Team SHIV (Im-Notcoder) 😎
 # 
-# 🧑‍💻 Developer : t.me/MrIstutg
-# 🔗 Source link : t.me/Istuxsupport
-# 📢 Telegram channel : t.me/Istuxupdate
-# ===========================================================
+# 🧑‍💻 Developer : t.me/sukoon_s
+# 🔗 Source link : t.me/betabot_support
+# 📢 Telegram channel : t.me/betabot_hub
+# =============================================================
