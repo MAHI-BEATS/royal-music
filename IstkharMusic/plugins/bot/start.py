@@ -29,21 +29,13 @@ from strings import get_string
 
 
 NEXI_VID = [
-    "https://files.catbox.moe/4rymzx.jpg",
-    "https://files.catbox.moe/6ncc2n.jpg",
-    "https://files.catbox.moe/zgy7zs.jpg",
-    "https://files.catbox.moe/lnvimv.jpg",
-    "https://files.catbox.moe/umpv9j.jpg",
-    "https://files.catbox.moe/7dckik.jpg",
-    "https://files.catbox.moe/nrt3hr.jpg",
-    "https://files.catbox.moe/zgy7zs.jpg",
-    "https://files.catbox.moe/zgy7zs.jpg",
-    "https://files.catbox.moe/zgy7zs.jpg",
-    "https://files.catbox.moe/nrt3hr.jpg",
-    "https://files.catbox.moe/nrt3hr.jpg",
-    "https://files.catbox.moe/nrt3hr.jpg",
-    "https://files.catbox.moe/nrt3hr.jpg",
-    "https://files.catbox.moe/nrt3hr.jpg",
+    "https://files.catbox.moe/7azd4u.jpg",
+    "https://files.catbox.moe/fj3cfe.jpg",
+    "https://files.catbox.moe/zgzwkw.jpg",
+    "https://files.catbox.moe/49spk2.jpg",
+    "https://files.catbox.moe/u4db8r.jpg",
+    "https://files.catbox.moe/ubyk6k.jpg",
+    "https://files.catbox.moe/czhknf.jpg",
 ]
 
 
@@ -53,10 +45,15 @@ NEXI_VID = [
 async def start_pm(client, message: Message, _):
     await add_served_user(message.from_user.id)
 
-    typing_message = await message.reply("BETA..BOTS..❤️‍🔥")
     
-    
-    typing_text = "𝖲ᴛᴀʀᴛɪɴɢ...❤️‍🔥"
+      # Loading Animation
+        accha = await m.reply_text("**BETA..BOTS....🥀**")
+        await asyncio.sleep(1)
+        await accha.edit("**SARTING.....🍫**")
+        await asyncio.sleep(0.5)
+        await accha.edit("**I M ALIVE BABY.....😱**")
+        await asyncio.sleep(0.5)
+        await accha.delete()
     
     for i in range(1, len(typing_text) + 1):  
         try:
