@@ -16,21 +16,13 @@ from IstkharMusic.utils.stuffs.helper import Helper
 
 
 START_IMG = [
-    "https://files.catbox.moe/4rymzx.jpg",
-    "https://files.catbox.moe/6ncc2n.jpg",
-    "https://files.catbox.moe/zgy7zs.jpg",
-    "https://files.catbox.moe/lnvimv.jpg",
-    "https://files.catbox.moe/umpv9j.jpg",
-    "https://files.catbox.moe/7dckik.jpg",
-    "https://files.catbox.moe/nrt3hr.jpg",
-    "https://files.catbox.moe/zgy7zs.jpg",
-    "https://files.catbox.moe/zgy7zs.jpg",
-    "https://files.catbox.moe/zgy7zs.jpg",
-    "https://files.catbox.moe/nrt3hr.jpg",
-    "https://files.catbox.moe/nrt3hr.jpg",
-    "https://files.catbox.moe/nrt3hr.jpg",
-    "https://files.catbox.moe/nrt3hr.jpg",
-    "https://files.catbox.moe/nrt3hr.jpg",
+    "https://files.catbox.moe/7azd4u.jpg",
+    "https://files.catbox.moe/fj3cfe.jpg",
+    "https://files.catbox.moe/zgzwkw.jpg",
+    "https://files.catbox.moe/49spk2.jpg",
+    "https://files.catbox.moe/u4db8r.jpg",
+    "https://files.catbox.moe/ubyk6k.jpg",
+    "https://files.catbox.moe/czhknf.jpg",
 ]
 
 @app.on_message(filters.command(["help"]) & filters.private & ~BANNED_USERS)
