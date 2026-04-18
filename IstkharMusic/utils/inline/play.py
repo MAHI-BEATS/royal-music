@@ -178,10 +178,10 @@ def slider_markup(_, videoid, user_id, query, query_type, channel, fplay):
     ]
     return buttons
 
-# ======================================================
+# =======================================================
 # ©️ 2025-26 All Rights Reserved by SHIV 😎
 
-# 🧑‍💻 Developer : t.me/lll_APNA_BADNAM_BABY_lll
+# 🧑‍💻 Developer : t.me/sukoon_s
 # 🔗 Source link : https://github.com/TEAM-ISTKHAR
-# 📢 Telegram channel : t.me/lll_APNA_BADNAM_BABY_lll
-# =======================================================
+# 📢 Telegram channel : t.me/betabot_support
+# ========================================================
